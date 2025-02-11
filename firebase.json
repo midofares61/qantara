@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "qantara-53495",
+          "appId": "1:584164274459:android:039f06a6b76019bc08e3be",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "qantara-53495",
+          "configurations": {
+            "android": "1:584164274459:android:039f06a6b76019bc08e3be",
+            "ios": "1:584164274459:ios:64220a69187fb0ac08e3be",
+            "macos": "1:584164274459:ios:64220a69187fb0ac08e3be",
+            "web": "1:584164274459:web:eaa8102ffba5b96908e3be",
+            "windows": "1:584164274459:web:1c6ad2e79051fe8a08e3be"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
